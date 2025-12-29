@@ -188,8 +188,10 @@ IncludeBlocks: Preserve
 # Break before binary operators (except assignment)
 BreakBeforeBinaryOperators: NonAssignment
 
-# No space before C++11 braced initialization
-SpaceBeforeCpp11BracedList: false
+# No spaces inside C++11 braced initialization
+Cpp11BracedListStyle: true
+# Add space before C++11 braced initialization
+SpaceBeforeCpp11BracedList: true
 
 # -----------------------------------------------------------------------------
 # ALIGNMENT

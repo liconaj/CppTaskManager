@@ -47,6 +47,7 @@ Checks: >
   readability-identifier-naming,
   readability-redundant-*,
   readability-simplify-*,
+    -readability-simplify-boolean-expr,
   readability-container-size-empty,
   readability-delete-null-pointer,
   readability-make-member-function-const,
