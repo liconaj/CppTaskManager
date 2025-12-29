@@ -1,7 +1,7 @@
-add_executable(taskmanager "main.cpp")
+add_executable(taskmaster "main.cpp")
 
 include(GNUInstallDirs)
-install(TARGETS taskmanager
+install(TARGETS taskmaster
     LIBRARY DESTINATION ${CMAKE_INSTALL_LIBDIR}
     RUNTIME DESTINATION ${CMAKE_INSTALL_BINDIR}
 )
