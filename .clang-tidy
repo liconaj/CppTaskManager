@@ -44,6 +44,7 @@ Checks: >
     -modernize-use-trailing-return-type,
     -modernize-concat-nested-namespaces,
   performance-*,
+    -performance-enum-size,
   readability-identifier-naming,
   readability-redundant-*,
   readability-simplify-*,
@@ -204,9 +205,6 @@ CheckOptions:
     value: 's_'
 
   # --- Constants and Macros ---
-  - key: readability-identifier-naming.ConstantCase
-    value: UPPER_CASE
-
   - key: readability-identifier-naming.ConstexprVariableCase
     value: UPPER_CASE
 
