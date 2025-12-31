@@ -1,4 +1,9 @@
-add_executable(taskmaster "main.cpp")
+add_executable(taskmaster main.cpp taskmaster.h taskmaster.cpp)
+
+target_link_libraries(taskmaster
+    PRIVATE
+        TaskMaster::Core
+)
 
 include(GNUInstallDirs)
 install(TARGETS taskmaster
