@@ -79,8 +79,8 @@ BraceWrapping:
     # Split empty {} in classes/structs
     SplitEmptyRecord: true
     
-    # Keep empty {} in functions on one line
-    SplitEmptyFunction: false
+    # Split empty {} in functions on one line
+    SplitEmptyFunction: true
 
 # Result:
 #
@@ -98,8 +98,8 @@ BraceWrapping:
 # Indent namespace contents
 # -----------------------------------------------------------------------------
 
-# Indent all namespace content
-NamespaceIndentation: All
+# Don't indent namespace content
+NamespaceIndentation: None
 
 # Add "// namespace X" comment on close (if > 10 lines)
 FixNamespaceComments: true
